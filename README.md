@@ -9,7 +9,7 @@ cara penggunaan:
    go run main.go
 3. gunakan perintah "curl" pada cmd untuk mengirim permintaan login >>
    curl -X POST -H "Content-Type: application/json" -d "{\\"username\": \\"user1\\", \\"password\\": \\"password1\\"}" http://localhost:8080/login
-   username dan password diganti
+   username dan password dapat diganti
 4. gunakan perintah "curl" pada cmd untuk mengirim permintaan topup >>
    curl -X POST -H "Content-Type: application/json" -d "INPUT NOMINAL" http://localhost:8080/topup/user1
    ganti "INPUT NOMINAL" menggunakan nilai bilangan bulat yang ingin kita masukan sebagai nilai topup
