@@ -15,5 +15,14 @@ cara penggunaan:
    ganti "INPUT NOMINAL" menggunakan nilai bilangan bulat yang ingin kita masukan sebagai nilai topup
 5. gunakan perintah "curl" pada cmd untuk mengirim permintaan mengecek riwayat >>
    curl localhost:8080/users
+
+Deskripsi tim
+1. I Made Dwi Wiryawan Raditya      (Hacker)
+2. Made Naradeon Handika Pramesta   (Hacker)
+3. Eka Pradipa Nata                 (Hipster)
+4. Agung rahma suputra              (Hustler)
+
+
+
   
    
