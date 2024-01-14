@@ -26,6 +26,18 @@ Screenshoot OurTa :
 https://drive.google.com/drive/folders/1-B406JFTgDxkomFQPZlKX1dTFv9zLWV0?usp=drive_link
 
 
-
-  
-   
+Ourta is an app that can be used for digital savings both personally and collectively.
+Berikut adalah contoh sebagian dari backend OurTa (login,topup, dan riwayat topup) menggunakan bahasa golang dan gin framework
+cara penggunaan:
+1. At the start of the input terminal >>
+   go get -u github.com/gin-gonic/gin
+2. Then run the program in terminal >>
+   go run main.go
+3. Use the "curl" command in cmd to send a login request >>>
+   curl -X POST -H "Content-Type: application/json" -d "{\\"username\\": \\"user1\\", \\"password\\": \\"password1\\"}" http://localhost:8080/login >>>
+   Username and password can be changed
+4. Use the "curl" command in cmd to send a topup request >>>
+   curl -X POST -H "Content-Type: application/json" -d "INPUT NOMINAL" http://localhost:8080/topup/user1 >>>
+   Replace "INPUT NOMINAL" using the integer value we want to input as the topup value
+5. Use the "curl" command in cmd to send a request to check history >>>
+   curl localhost:8080/users
