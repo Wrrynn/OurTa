@@ -42,5 +42,11 @@ cara penggunaan:
 5. Use the "curl" command in cmd to send a request to check history >>>
    curl localhost:8080/users
 
+Deskripsi tim JavaKey
+1. I Made Dwi Wiryawan Raditya      (Hacker)
+2. Made Naradeon Handika Pramesta   (Hacker)
+3. Eka Pradipa Nata                 (Hipster)
+4. Agung rahma suputra              (Hustler)
+
 Screenshoot OurTa : 
 https://drive.google.com/drive/folders/1-B406JFTgDxkomFQPZlKX1dTFv9zLWV0?usp=drive_link
