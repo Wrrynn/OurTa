@@ -41,3 +41,6 @@ cara penggunaan:
    Replace "INPUT NOMINAL" using the integer value we want to input as the topup value
 5. Use the "curl" command in cmd to send a request to check history >>>
    curl localhost:8080/users
+
+Screenshoot OurTa : 
+https://drive.google.com/drive/folders/1-B406JFTgDxkomFQPZlKX1dTFv9zLWV0?usp=drive_link
